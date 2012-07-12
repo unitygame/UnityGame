@@ -7,7 +7,7 @@ public class ExtraGravity : MonoBehaviour {
 	// Use this for initialization
 	void Start () 
 	{
-		Debug.Log(gameObject.name);
+		//Debug.Log(gameObject.name);
 		gameObject.AddComponent("ConstantForce");
 		constantForce.force = Vector3.down * multyplier * rigidbody.mass;
 	}
