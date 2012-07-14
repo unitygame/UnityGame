@@ -44,9 +44,9 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\ExtraGravity.cs" />
-     <Compile Include="Assets\RotationLocker.cs" />
-     <Compile Include="Assets\playerscript.cs" />
+     <Compile Include="Assets\Scripts\ExtraGravity.cs" />
+     <Compile Include="Assets\Scripts\RotationLocker.cs" />
+     <Compile Include="Assets\Scripts\playerscript.cs" />
      <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />

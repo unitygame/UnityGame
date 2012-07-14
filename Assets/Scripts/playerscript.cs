@@ -23,20 +23,21 @@ public class playerscript : MonoBehaviour
 	/*
 	void OnCollisionEnter(Collision collision)
 	{
-		if (collision.gameObject.tag == "VerticalBarrier")
+		if (collision.gameObject.tag == "walkable" && collision.transform)
 		{
-			++blockedHoriz;
+			
 		}
 	}
 
 	void OnCollisionExit(Collision collision)
 	{
-		if (collision.gameObject.tag == "VerticalBarrier")
+		if (collision.gameObject.tag == "walkable")
 		{
-			--blockedHoriz;
+			
 		}
 	}
 	*/
+	
 	
 	// Update is called once per frame
 	void Update () 
